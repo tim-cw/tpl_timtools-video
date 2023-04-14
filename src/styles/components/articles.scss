@@ -1,0 +1,16 @@
+/* ==========================================================================
+   articles / component
+   ========================================================================== */
+
+.articles {
+}
+
+.article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+
+    + .article {
+        margin-top: var(--spacing-md);
+    }
+}

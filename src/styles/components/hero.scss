@@ -1,0 +1,17 @@
+/* ==========================================================================
+   hero / component
+   ========================================================================== */
+.hero {
+}
+
+.hero__title {
+    grid-column: 2 / -2;
+    margin-bottom: var(--spacing-md);
+    position: relative;
+    z-index: 2;
+}
+
+.hero__content {
+    grid-column: 1 / -1;
+    height: 300px;
+}

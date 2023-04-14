@@ -1,0 +1,24 @@
+/* ==========================================================================
+   grid / component
+   ========================================================================== */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--grid-gap);
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+    justify-content: center;
+    margin: 0 auto;
+    width: 83.333%;
+
+    @media screen and (min-width: $breakpoint-sm) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: dense;
+    }
+}
