@@ -1,4 +1,4 @@
-// import ComponentFactory from './ComponentFactory';
+import ComponentFactory from './ComponentFactory';
 import Icons from './utils/Icons';
 
 class Main {
@@ -11,6 +11,7 @@ class Main {
 
     Icons.load();
 
+    // Allez ajouter vos composantes
     // new ComponentFactory();
   }
 }
