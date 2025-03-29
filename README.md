@@ -1,4 +1,5 @@
-# Composante - YouTube
+# Stack de développement frontend TimTools
 
-Introduction de la composante YouTube qui nous permet d'ajouter des vidéos optimisées à nos pages
-<br><br>
+<br><br><br><hr>
+Préparé par : Matthieu Parent et Jean-François Leblanc  
+_timtools v1.4.1_
